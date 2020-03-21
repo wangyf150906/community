@@ -36,20 +36,39 @@
             </exclusions>
         </dependency>
 
+        <!--引入模板引擎-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
+        <!--引入mybatis依赖-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+
+        <!--引入okhttp模拟post请求-->
         <dependency>
             <groupId>com.squareup.okhttp3 </groupId>
             <artifactId>okhttp </artifactId>
             <version>3.14.1</version>
         </dependency>
+
+        <!--引入json模块-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.66</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.200</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
